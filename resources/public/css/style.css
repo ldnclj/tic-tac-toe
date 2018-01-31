@@ -1,0 +1,37 @@
+html,
+body {
+  width: 100%;
+}
+
+body {
+  padding: 10px;
+}
+
+.board {
+  width: 800px;
+  height: 800px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+  flex-basis: 33.33333333333333%;
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.board-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  flex-basis: 33.333333333333333%;
+  border: 1px solid #111;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
