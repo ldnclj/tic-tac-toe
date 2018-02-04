@@ -40,7 +40,9 @@ TODO: Add names if you like here
 
 ## Further work
 
-Currently there's no victory check or display of the player whose turn it is - be good to add those :)
+- display the current player
+- customise the playing pieces?
+- use SVG for the board/pieces?
 
 ## License
 
